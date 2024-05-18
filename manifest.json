@@ -1,0 +1,12 @@
+{
+  "domain": "jw.kexpiral.com",
+  "name": "jw Home Assistant",
+  "codeowners": ["@benjifc"],
+  "config_flow": true,
+  "dependencies": ["persistent_notification", "http"],
+  "documentation": "https://github.com/benjifc/JW-Home-Assistant/wiki",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/benjifc/JW-Home-Assistant/issues",
+  "loggers": ["jw-home-asistant", "authcaptureproxy"],
+  "version": "0.0.1"
+}
